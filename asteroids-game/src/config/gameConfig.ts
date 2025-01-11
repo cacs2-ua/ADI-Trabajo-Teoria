@@ -30,5 +30,5 @@ export const ASTEROID_CONFIG = {
 export const BULLET_CONFIG = {
   SIZE: 2,
   SPEED: 12,
-  LIFESPAN: 40,
+  LIFESPAN: 60,
 };

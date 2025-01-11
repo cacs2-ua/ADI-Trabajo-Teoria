@@ -68,7 +68,7 @@ const GameCanvas: React.FC<GameCanvasProps> = ({ gameState }) => {
   const drawScore = (ctx: CanvasRenderingContext2D) => {
     ctx.fillStyle = 'white';
     ctx.font = '24px Arial';
-    ctx.fillText(`          SC: ${gameState.score}`, 20, 40);
+    ctx.fillText(`                        Score: ${gameState.score}`, 20, 40);
   };
 
   const drawGameOver = (ctx: CanvasRenderingContext2D) => {
