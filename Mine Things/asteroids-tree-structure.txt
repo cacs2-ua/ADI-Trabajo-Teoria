@@ -1,0 +1,40 @@
+asteroids-game/
+├── .gitignore
+├── eslint.config.js
+├── index.html
+├── package-lock.json
+├── package.json
+├── postcss.config.js
+├── tailwind.config.js
+├── tsconfig.app.json
+├── tsconfig.json
+├── tsconfig.node.json
+├── vite.config.ts
+├── dist/
+│   ├── index.html
+│   └── assets/
+│       ├── index-CzncWAzr.js
+│       └── index-DkQqMKx9.css
+├── src/
+    ├── App.tsx
+    ├── index.css
+    ├── main.tsx
+    ├── vite-env.d.ts
+    ├── components/
+    │   └── GameCanvas.tsx
+    ├── config/
+    │   ├── gameConfig.ts
+    │   └── initialState.ts
+    ├── hooks/
+    │   ├── useGameCollisions.ts
+    │   ├── useGameControls.ts
+    │   ├── useGameLoop.ts
+    │   └── useGameUpdates.ts
+    ├── types/
+    │   └── game.ts
+    └── utils/
+        ├── asteroidManager.ts
+        ├── bulletManager.ts
+        ├── geometry.ts
+        ├── physics.ts
+        └── spawnUtils.ts
